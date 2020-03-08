@@ -1,2 +1,8 @@
 # AIDA64-oled-display
 用于从AIDA64中获取CPU与GPU的频率、温度等参数，并可以从互联网获取时间，作为一个桌面时钟
+
+需要在AIDA64设置中开启RemoteSensor支持
+将配置文件导入AIDA64
+在.ino文件中配置好WiFi的SSID和密码
+设置好需要获取PC的IP地址
+写入esp8266
