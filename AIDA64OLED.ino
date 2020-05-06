@@ -18,7 +18,7 @@ const int   port     = 9999;                 // 需要访问的端口
 
 U8G2_SH1106_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ D4, /* data=*/ D3, /* reset=*/ U8X8_PIN_NONE);
 WiFiClient client;
-boolean PCOnline = false;                    // NTP连接状态，PC连接状态
+boolean PCOnline = false;                    // PC连接状态
 int CPU_FREQ, GPU_FREQ, CPU_TEMP, GPU_TEMP, GPU_USE, CPU_USE, RAM_USE, CPU_FAN, GPU_FAN; // 参数
 
 void setup() {
