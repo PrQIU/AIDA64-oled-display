@@ -2,6 +2,7 @@
 用于从AIDA64中获取CPU与GPU的频率、温度等参数
 
 
+
 1、一个esp8266开发板
 
 2、一个12864oled显示屏
@@ -11,6 +12,7 @@
 4、AIDA64软件
 
 5、Arduino IDE
+
 
 
 需要在AIDA64设置中开启RemoteSensor支持
